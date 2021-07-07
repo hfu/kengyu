@@ -41,7 +41,7 @@ const showMap = async (texts) => {
 
   let voice = null
   for(let v of speechSynthesis.getVoices()) {
-    if (v.name = 'Kyoko') voice = v
+    if (v.name == 'Kyoko') voice = v
   }
 
   map.on('load', () => {
