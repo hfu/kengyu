@@ -1,0 +1,14 @@
+{
+"name": "tiles.mbtiles",
+"description": "tiles.mbtiles",
+"version": "2",
+"minzoom": "8",
+"maxzoom": "8",
+"center": "135.703125,34.883907,8",
+"bounds": "126.562500,25.799891,146.250000,46.073231",
+"type": "overlay",
+"format": "pbf",
+"generator": "tile-join v1.36.0",
+"generator_options": "tippecanoe '--minimum-zoom=8' '--maximum-zoom=8' --force '--layer=kengyu' --coalesce --detect-shared-borders -o tiles.mbtiles; tile-join --force --no-tile-compression '--output-to-directory=docs/zxy' --no-tile-size-limit tiles.mbtiles",
+"json": "{\"vector_layers\": [ { \"id\": \"kengyu\", \"description\": \"\", \"minzoom\": 8, \"maxzoom\": 8, \"fields\": {\"name\": \"String\", \"year\": \"Number\", \"作業年度\": \"String\", \"原典資料\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"kengyu\",\"count\": 72841,\"geometry\": \"Polygon\",\"attributeCount\": 4,\"attributes\": [{\"attribute\": \"name\",\"count\": 1,\"type\": \"string\",\"values\": [\"５ｍメッシュDEM（航空レーザ測量）\"]},{\"attribute\": \"year\",\"count\": 18,\"type\": \"number\",\"values\": [2002,2003,2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019],\"min\": 2002,\"max\": 2019},{\"attribute\": \"作業年度\",\"count\": 18,\"type\": \"string\",\"values\": [\"H14\",\"H15\",\"H16\",\"H17\",\"H18\",\"H19\",\"H20\",\"H21\",\"H22\",\"H23\",\"H24\",\"H25\",\"H26\",\"H27\",\"H28\",\"H29\",\"H30\",\"H31\"]},{\"attribute\": \"原典資料\",\"count\": 663,\"type\": \"string\",\"values\": [\"H14GC001\",\"H14GC002\",\"H14GC003\",\"H14GC004\",\"H15GC001\",\"H15GC002\",\"H15GC003\",\"H16GC001\",\"H17A0254\",\"H17C0490\",\"H17D0160\",\"H17G0002\",\"H17H0162\",\"H18GC001\",\"H19GC001\",\"H19GC002\",\"H19GC003\",\"H19GC004\",\"H20B0146\",\"H20B0192\",\"H20B0220\",\"H20B0226\",\"H20B0231\",\"H20B0233\",\"H20B0234\",\"H20B0235\",\"H20C0558\",\"H20D0176\",\"H20E0145\",\"H20E0206\",\"H20F0368\",\"H20GC001\",\"H20GC002\",\"H20GC003\",\"H20GC004\",\"H20GC005\",\"H20GC006\",\"H20GC007\",\"H20GC008\",\"H20GC009\",\"H20H0083\",\"H20H0084\",\"H20H0085\",\"H20H0086\",\"H20H0087\",\"H20H0088\",\"H20H0089\",\"H20I0403\",\"H20I0405\",\"H20I0410\",\"H20I0418\",\"H20I0424\",\"H20I0426\",\"H20I0428-01\",\"H20I0428-02\",\"H20I0428-03\",\"H21A0456\",\"H21A0457\",\"H21A0461\",\"H21A0500\",\"H21A0506\",\"H21A0613\",\"H21A0620\",\"H21A0650\",\"H21A0729\",\"H21A0734\",\"H21A0743\",\"H21A0744\",\"H21A0764\",\"H21A0826\",\"H21A0827\",\"H21B0005\",\"H21B0009\",\"H21B0021\",\"H21B0022\",\"H21B0026\",\"H21B0027\",\"H21B0053-01\",\"H21B0053-02\",\"H21B0071\",\"H21B0084-01\",\"H21B0084-02\",\"H21B0084-03\",\"H21B0134\",\"H21B0176-01\",\"H21B0176-02\",\"H21B0252\",\"H21B0252A-01\",\"H21B0252A-02\",\"H21C0001\",\"H21C0015\",\"H21C0016\",\"H21C0038\",\"H21C0039\",\"H21C0040\",\"H21C0043\",\"H21C0221\",\"H21C0311\",\"H21C0319\",\"H21C0333\"]}]}]}}"
+}
